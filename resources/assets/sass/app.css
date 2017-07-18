@@ -1,0 +1,171 @@
+body, div, span, button, code, input, select, textarea {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", Arial, sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #ECECEC;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.gm-sys {
+    list-style: none;
+    height: 60px;
+    line-height: 60px;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+}
+
+.gm-sys > li {
+    float: left;
+}
+
+.gm-sys > li > a {
+    padding: 0 20px;
+    color: white;
+    height: 60px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.gm-sys > li:last-child > a {
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+ul.gm-sys > li > a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.gm-main-wrap {
+    border-radius: 5px;
+}
+
+.page-menu {
+    width: 200px;
+    position: absolute;
+    background-color: rgb(238, 245, 246);
+}
+
+.page-menu-small {
+    width: 50px !important;
+}
+
+.page-menu-small:before {
+    width: 50px !important;
+}
+
+.page-menu:before {
+    content: "";
+    position: fixed;
+    width: 200px;
+    bottom: 20px;
+    top: 80px;
+    background-color: rgb(238, 245, 246);
+    z-index: -1;
+}
+
+.gm-main-wrap > .page-content {
+    margin-left: 200px;
+}
+
+.gm-main-wrap > .page-content:before {
+    content: "";
+    position: fixed;
+    left: 230px;
+    right: 30px;
+    bottom: 20px;
+    top: 80px;
+    background-color: #fff;
+    z-index: -1;
+}
+
+.gm-main-wrap > .page-content-small {
+    margin-left: 50px !important;
+}
+
+.gm-main-wrap > .page-content-small:before {
+    left: 80px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+/* 滚动条的滑轨背景颜色 */
+
+::-webkit-scrollbar-thumb {
+    background-color: #324057;
+    padding: 0px 2px;
+    border-radius: 5px;
+}
+
+/* 滑块颜色 */
+
+::-webkit-scrollbar-button {
+    background-color: transparent;
+    height: 0px;
+    width: 0px
+}
+
+/* 滑轨两头的监听按钮颜色 */
+
+::-webkit-scrollbar-corner {
+    background-color: transparent;
+    height: 0px;
+    width: 0px;
+}
+
+.gm-home {
+    float: left;
+    margin-right: 10px;
+    font-size: 18px;
+    margin-top: -6px;
+    color: #408080;
+}
+
+.gm-back {
+    float: left;
+    margin-right: 10px;
+    font-size: 16px;
+    margin-top: -12px;
+    color: #408080;
+}
+
+.gm-breadcrumb {
+    border-bottom: 1px solid #e5e9f2;
+    margin: -10px -20px 18px;
+    padding: 25px 20px 30px;
+    font-size: 14px;
+}
+
+.gm-breadcrumb > .el-breadcrumb {
+    float: left;
+}
+
+/** table nav **/
+.el-pagination {
+    float: right;
+    width: 100%;
+    text-align: right;
+    margin-top: 5px;
+}
+
+.el-pagination > .el-pagination__total {
+    float: left;
+}
+
+/** table nav **/
